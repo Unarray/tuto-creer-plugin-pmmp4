@@ -180,6 +180,7 @@ src-namespace-prefix: Youtube\Verre2OuiSki\Tutoriel\PocketMineMP\CreerUnPlugin\P
 
 * [Apprendre le PHP](https://www.youtube.com/playlist?list=PLjwdMgw5TTLVDv-ceONHM_C19dPW1MAMD)
 * [Gestion sémantique de version 2.0.0 | Semantic Versioning](https://semver.org/lang/fr/)
+* [Règles POGGIT](https://poggit.pmmp.io/rules.edit)
 * [Doc PDF de PocketMine](https://buildmedia.readthedocs.org/media/pdf/pmmp/rtfd/pmmp.pdf)
 * [Code Source de PocketMine-MP](https://github.com/pmmp/PocketMine-MP/)
 * [Doc de l'API](https://apidoc.pmmp.io/)
