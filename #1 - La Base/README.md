@@ -25,7 +25,7 @@ Il y a 2 éléments principaux :
     > Contient des informations sur le plugin
 * Le fichier principal de notre plugin, `Main.php` 
 
-Ainsi, voici a quoi ressemblera le squelette de notre plugin :
+Ainsi, voici à quoi ressemblera le squelette de notre plugin :
 ```
 MonPlugin/
 ├── src/
@@ -35,7 +35,7 @@ MonPlugin/
 └── plugin.yml
 ```
 
-#### Création du [`plugin.yml`](https://buildmedia.readthedocs.org/media/pdf/pmmp/rtfd/pmmp.pdf#section.15.5)
+### Création du [`plugin.yml`](https://buildmedia.readthedocs.org/media/pdf/pmmp/rtfd/pmmp.pdf#section.15.5)
 Dans ce fichier, vous devrez obligatoirement renseigner les 4 clés suivantes :
 
 > * [name](https://buildmedia.readthedocs.org/media/pdf/pmmp/rtfd/pmmp.pdf#subsubsection*.54)
@@ -43,7 +43,7 @@ Dans ce fichier, vous devrez obligatoirement renseigner les 4 clés suivantes :
 > * [api](https://buildmedia.readthedocs.org/media/pdf/pmmp/rtfd/pmmp.pdf#subsubsection*.57)
 > * [main](https://buildmedia.readthedocs.org/media/pdf/pmmp/rtfd/pmmp.pdf#subsubsection*.56)
 
-Ainsi, chaqu'un de vos plugins devrait avoir ces quatre éléments :
+Ainsi, chacun de vos plugins devront avoir ces quatre éléments :
 ```yaml
 ---
 
@@ -55,8 +55,8 @@ main: Verre2OuiSki\PluginTuto\Main
 ...
 ```
 
-#### Création de notre fichier principal
-Comme montré plus haut, notre fichier principal se situ dans `src/Verre2OuiSki/PluginTuto/` et est nommé `Main.php`
+## Création de notre fichier principal
+Comme montré plus haut, notre fichier principal se situe dans `src/Verre2OuiSki/PluginTuto/` et est nommé `Main.php`
 
 Ce fichier va être le fichier exécuté au lancement de notre plugin.
 ```php
@@ -78,9 +78,9 @@ class Main extends PluginBase{
 
 ## [src-namespace-prefix](https://buildmedia.readthedocs.org/media/pdf/pmmp/rtfd/pmmp.pdf#paragraph*.75)
 
-Comme vous avez pu le voir, le squellette de notre plugin comporte une section inutile. Les dossiers `Verre2OuiSki` et `PluginTuto` ne servent t'as rien a part respecter notre namespace. 
+Comme vous avez pu le voir, le squelette de notre plugin comporte une section inutile. Les dossiers `Verre2OuiSki` et `PluginTuto` ne servent a rien à part respecter notre namespace. 
 
-Pour remedier a ce problème, PocketMine-MP v4.0.0 nous permette désormais de supprimer ces dossiers imbriqués, et les remplacer par un prefix pour nos espaces de noms.
+Pour remédier à ce problème, PocketMine-MP v4.0.0 nous permette désormais de supprimer ces dossiers imbriqués, et les remplacer par un prefix pour nos espaces de noms.
 
 Pour pouvoir supprimer ces dossiers, vous devrez ajouter dans votre `plugin.yml` la clé facultative `src-namespace-prefix`. Elle vous permettra de respecter votre espace de nom sans avoir a créer des dossiers imbriqués.
 Ainsi, votre `plugin.yml` devrait ressembler a ça :
@@ -134,7 +134,7 @@ src-namespace-prefix: Verre2OuiSki\PluginTuto
 ...
 ```
 ---
-### Pour vous faire un exemple un peu plus éxagéré :
+### Pour vous faire un exemple un peu plus exagéré :
 
 #### **Sans :**
 ```
