@@ -1,4 +1,4 @@
-# Episode 1
+# [Episode 1](https://youtu.be/-xrd_uZzV8I)
 ### *Comment créer un plugin PocketMine-MP ?*
 
 ---
@@ -63,7 +63,7 @@ Ce fichier va être le fichier exécuté au lancement de notre plugin.
 <?php
 
 // Namespace de notre fichier (correspond aux dossier dans lequel ce fichier est situé depuis "src")
-namespace Verre2OuiSki\MonPlugin;
+namespace Verre2OuiSki\PluginTuto;
 
 // "Importation" de la class `PluginBase`
 use pocketmine\plugin\PluginBase;
