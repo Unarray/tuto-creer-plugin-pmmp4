@@ -1,6 +1,6 @@
 <?php
 
-namespace Verre2OuiSki\MonPlugin;
+namespace Verre2OuiSki\PluginTuto;
 
 use pocketmine\plugin\PluginBase;
 

@@ -1,0 +1,26 @@
+---
+
+name: PluginTuto
+version: 1.0.0
+api: 4.0.0
+main: Verre2OuiSki\PluginTuto\Main
+src-namespace-prefix: Verre2OuiSki\PluginTuto
+
+permissions:
+  plugintuto.command.ping:
+    default: op
+    description: Permission de la commande "ping"
+  plugintuto.command.ping2:
+    default: op
+    description: Permission de la commande "ping"
+
+commands:
+    # A noter que les clés permission-message, aliases et usage sont facultatives 
+  ping:
+    description: Notre première commande !
+    usage: /ping
+    aliases:
+      - pg
+    permissions: monplugin.command.ping
+    permission-message: Vous n'avez pas la permission de faire cette commande !
+...
